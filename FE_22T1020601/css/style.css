@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+body{
+    background-color: silver;
+}
+.index{
+    margin: auto;
+    width: 1000px;
+    height: 800px;
+    background-color: #F4347F ;
+}
+.header{
+display: flex;
+justify-content: space-around;
+margin-left: -50px;
+margin-top: 30px;
+}
+.header-left{
+margin-top: 20px;
+margin-left: -100px;
+}
+.header-left img{
+    height: 180px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+.header-right{
+
+    margin-top: 30px;
+margin-left: -350px;
+}
+.header-right h1{
+    color: white;
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+.header-right .title{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.header-right .nd{
+    color: white;
+    padding-bottom: 3px;
+}
+.container{
+display: flex;
+margin-top: 20px;
+}
+.container h2{
+    font-size: 20px;
+}
+.container p{
+    font-size: 14px;
+}
+.container-left{
+color: white;
+width: 380px;
+margin-left: 30px;
+}
+.container-left-top h2{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom:2px solid white;
+}
+.container-left-top .content{
+    margin-bottom: 5px;
+}
+.container-left-bottom{
+    margin-top: 40px;
+
+}.container-left-bottom h2{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom:2px solid white;
+}
+.container-left-bottom .content{
+    margin-bottom: 5px;
+}
+.container-right{
+background-image: url(/images/background.jpg);
+background-size:700px 650px;
+background-position: -150px -100px;
+background-repeat: no-repeat;
+margin-left: 20px;
+width: 550px;
+height: 600px;
+border-radius: 20px;
+
+}
+.container-right-top{
+margin-top: 20px;
+margin-left: 20px;
+}
+.container-right-bottom{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.container-right-top h2{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom:2px solid rgb(0, 0, 0);
+}
+.container-right-top .content{
+    margin-bottom: 5px;
+}
+.container-right-bottom h2{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom:2px solid rgb(0, 0, 0);
+}
+.container-right-bottom .content{
+    margin-bottom: 5px;
+}
